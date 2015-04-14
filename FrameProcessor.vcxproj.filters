@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{32469f11-6b53-4810-b231-4418e30c2594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{025073d7-e9b1-47b0-9848-e585e52a604a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{892c330f-d674-411d-a6bf-4f7ac03a5302}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrameProcessFilter.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="IFrameProcessor.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="consts.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrmProcessPropPage.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FrameProcessFilter.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="FrmProcessPropPage.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FrameProcessor.def">
+      <Filter>Header files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FrameProcessFilter.rc">
+      <Filter>Resource files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
