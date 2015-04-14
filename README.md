@@ -1,0 +1,1 @@
+DirectShow transform filter for applying of brightness/contrast/hue/saturation effects 
